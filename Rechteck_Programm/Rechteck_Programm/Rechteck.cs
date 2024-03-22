@@ -14,9 +14,9 @@ namespace Rechteck_Programm
 
         //Dekladieren der Eigenschaft Breite
         public double Breite
-        { 
+        {
             get { return breite; }
-            set 
+            set
             {
                 if (value >= 0)
                 {
@@ -26,7 +26,7 @@ namespace Rechteck_Programm
                 {
                     throw new Exception("breite darf nicht Negative sein");
                 }
-            } 
+            }
         }
 
         //Dekladieren der Eigenschaft Höhe
@@ -49,13 +49,13 @@ namespace Rechteck_Programm
         //Dekladieren der Eigenschaft Umfang
         public double Umfang
         {
-            get { return 2*höhe + 2+breite; }
+            get { return 2 * höhe + 2 + breite; }
         }
 
         //Dekladieren der Eigenschaft Fläche
         public double Fläche
         {
-            get { return höhe*breite; }
+            get { return höhe * breite; }
         }
 
 
@@ -69,6 +69,36 @@ namespace Rechteck_Programm
         {
             Breite = breite;
             Höhe = höhe;
+        }
+
+        //Methoden zur berechnung der Diagnole
+        public double Diagnole_berchnung(string einheit)
+        {
+            if (einheit != "cm" || einheit != "Zoll")
+            {
+                throw new Exception("Entweder cm oder Zoll");
+            }
+
+            else
+            {
+                return Breite * Höhe;
+            }
+        }
+
+        //Methoden zur berechnung des Zoomen
+        public void Zoomen(double faktor)
+        {
+            Breite *= faktor;
+            Höhe *= faktor; 
+        }
+
+        //Methoden um den Rechteck zu derehen
+        public void Drehen()
+        {
+            double b = Höhe;
+
+            Breite = Höhe;
+            Breite = b;
         }
     }
 }
