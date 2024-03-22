@@ -8,23 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sador.z2.SCHULE\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Sador\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sador.z2.SCHULE\\source\\repos\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj",
+      "projectUniqueName": "D:\\Sador Schule\\SWE Git Projekt\\Rechteck\\Lernsituation-Rechteck-\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj",
       "projectName": "Rechteck_Programm",
-      "projectPath": "C:\\Users\\sador.z2.SCHULE\\source\\repos\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj",
-      "packagesPath": "C:\\Users\\sador.z2.SCHULE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sador.z2.SCHULE\\source\\repos\\Rechteck_Programm\\Rechteck_Programm\\obj\\",
+      "projectPath": "D:\\Sador Schule\\SWE Git Projekt\\Rechteck\\Lernsituation-Rechteck-\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj",
+      "packagesPath": "C:\\Users\\Sador\\.nuget\\packages\\",
+      "outputPath": "D:\\Sador Schule\\SWE Git Projekt\\Rechteck\\Lernsituation-Rechteck-\\Rechteck_Programm\\Rechteck_Programm\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sador.z2.SCHULE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sador\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -24,7 +24,7 @@ namespace Rechteck_Programm
                 }
                 else
                 {
-                    throw new Exception("breite darf nicht Negative sein");
+                    throw new Exception("breite darf nicht Negative oder ein Buchstabe sein");
                 }
             }
         }
@@ -41,7 +41,7 @@ namespace Rechteck_Programm
                 }
                 else
                 {
-                    throw new Exception("höhe darf nicht Negative sein");
+                    throw new Exception("höhe darf nicht Negative oder ein Buchstabe sein");
                 }
             }
         }
@@ -49,7 +49,7 @@ namespace Rechteck_Programm
         //Dekladieren der Eigenschaft Umfang
         public double Umfang
         {
-            get { return 2 * höhe + 2 + breite; }
+            get { return 2 * höhe + 2 * breite; }
         }
 
         //Dekladieren der Eigenschaft Fläche
@@ -73,9 +73,9 @@ namespace Rechteck_Programm
         }
 
         //Methoden zur berechnung der Diagnole
-        public double Diagnole_berchnung(string einheit)
+        public double Diagonale_berchnung(string einheit)
         {
-            if (einheit != "cm" || einheit != "Zoll")
+            if (einheit != "cm" && einheit != "Zoll")
             {
                 throw new Exception("Entweder cm oder Zoll");
             }
@@ -98,7 +98,7 @@ namespace Rechteck_Programm
         {
             double b = Höhe;
 
-            Breite = Höhe;
+            Höhe = Breite;
             Breite = b;
         }
     }
