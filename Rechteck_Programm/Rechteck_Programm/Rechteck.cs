@@ -63,6 +63,7 @@ namespace Rechteck_Programm
         public Rechteck(double seite)
         {
             Breite = seite;
+            Höhe = seite;
         }
 
         public Rechteck(double breite, double höhe)
