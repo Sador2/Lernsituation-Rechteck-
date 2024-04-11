@@ -18,12 +18,17 @@ namespace Rechteck_Programm
                     eingabe = false;
 
                     //Aufforderung von Benutzer Eingabe 
+                    Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("Guten Tag!");
                     Console.Write("Geben sie die Gewünschte Höhe ihres Rechtecks: ");
-                    Console.ForegroundColor = ConsoleColor.Yellow; benutzerEingabe_höhe = RichteBenutzerEingabe(Console.ReadLine()); Console.ForegroundColor = ConsoleColor.White;
+                    Console.ForegroundColor = ConsoleColor.Yellow; 
+                    benutzerEingabe_höhe = RichteBenutzerEingabe(Console.ReadLine()); 
+                    Console.ForegroundColor = ConsoleColor.White;
 
                     Console.Write("Geben sie jetzt die Gewünschte Breite ihres Rechtecks: ");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     benutzerEingabe_breite = RichteBenutzerEingabe(Console.ReadLine());
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
                 catch (Exception e)
                 {
@@ -37,6 +42,8 @@ namespace Rechteck_Programm
             Console.Clear();
             string größenEinheit = "cm";
             double faktorZoom = 3;
+            double einheit = 0;
+            string einheitZeichen = "cm";
 
             //Objekt Rechteck wurde erstellt
             Rechteck rechteck = new Rechteck(benutzerEingabe_breite, benutzerEingabe_höhe);
@@ -60,9 +67,37 @@ namespace Rechteck_Programm
             Console.WriteLine($"• Die Höhe des Rechtecks {rechteck.Höhe} {größenEinheit}");
             Console.WriteLine($"• Der Umfang des Rechtecks {rechteck.Umfang} {größenEinheit}");
             Console.WriteLine($"• Die Fläche des Rechtecks {rechteck.Fläche} {größenEinheit}²");
-            Console.WriteLine($"• Die Diagonale Seite des Rechtecks {rechteck.Diagonale_berchnung(größenEinheit)} {größenEinheit}");
+            Console.WriteLine($"• Die Diagonale Seite des Rechtecks {rechteck.Diagonale_berchnung(einheitZeichen)} {einheitZeichen}");
             Console.WriteLine();
             Console.WriteLine();
+
+            //Frage nach dem Zoomen
+            try
+            {
+                Console.Write("Um wie viel wollen sie das Viereck Zoomen: ");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                faktorZoom = RichteBenutzerEingabe(Console.ReadLine());
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("Wollen sie es als cm oder Zoll ausgeben?\t1.cm 2.Zoll");
+                einheit =  RichteBenutzerEingabe(Console.ReadLine());
+                if (einheit == 1)
+                {
+                    einheitZeichen = "cm";
+                }
+                else if (einheit == 2)
+                {
+                    einheitZeichen = "Zoll";
+                }
+                else
+                {
+                    Console.WriteLine("Pech gehabt jetzt. Ist jetzt cm");
+                    einheitZeichen = "cm";
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
 
             //Ausgabe des Objekt Rechteck wenn es gezoomt wird
             Console.ForegroundColor = ConsoleColor.Green;
@@ -71,7 +106,7 @@ namespace Rechteck_Programm
             rechteck.Zoomen(faktorZoom);
             Console.WriteLine($"• Der Umfang des Rechtecks {rechteck.Umfang} {größenEinheit}");
             Console.WriteLine($"• Die Fläche des Rechtecks {rechteck.Fläche} {größenEinheit}²");
-            Console.WriteLine($"• Die Diagonale Seite des Rechtecks {rechteck.Diagonale_berchnung(größenEinheit)} {größenEinheit}");
+            Console.WriteLine($"• Die Diagonale Seite des Rechtecks {rechteck.Diagonale_berchnung(größenEinheit)} {einheitZeichen}");
             Console.WriteLine();
             Console.WriteLine();
         }

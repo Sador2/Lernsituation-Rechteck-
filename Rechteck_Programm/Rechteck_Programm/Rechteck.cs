@@ -82,7 +82,11 @@ namespace Rechteck_Programm
 
             else
             {
-                return Breite * Höhe;
+                if (einheit == "Zoll")
+                {
+                    return Math.Sqrt(Breite * Höhe)* 0.39370079;
+                }
+                return Math.Sqrt(Breite * Höhe);
             }
         }
 

@@ -13,3 +13,18 @@ D:\Sador Schule\SWE Git Projekt\Rechteck\Lernsituation-Rechteck-\Rechteck_Progra
 D:\Sador Schule\SWE Git Projekt\Rechteck\Lernsituation-Rechteck-\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.pdb
 D:\Sador Schule\SWE Git Projekt\Rechteck\Lernsituation-Rechteck-\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.genruntimeconfig.cache
 D:\Sador Schule\SWE Git Projekt\Rechteck\Lernsituation-Rechteck-\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\ref\Rechteck_Programm.dll
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\bin\Debug\net6.0\Rechteck_Programm.exe
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\bin\Debug\net6.0\Rechteck_Programm.deps.json
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\bin\Debug\net6.0\Rechteck_Programm.runtimeconfig.json
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\bin\Debug\net6.0\Rechteck_Programm.dll
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\bin\Debug\net6.0\Rechteck_Programm.pdb
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.csproj.AssemblyReference.cache
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.GeneratedMSBuildEditorConfig.editorconfig
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.AssemblyInfoInputs.cache
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.AssemblyInfo.cs
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.csproj.CoreCompileInputs.cache
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.dll
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\refint\Rechteck_Programm.dll
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.pdb
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\Rechteck_Programm.genruntimeconfig.cache
+\\BK175055\sador.z2\Desktop\Rechteck_Programm\Rechteck_Programm\obj\Debug\net6.0\ref\Rechteck_Programm.dll
