@@ -66,9 +66,8 @@ namespace Rechteck_Programm
             Höhe = seite;
         }
 
-        public Rechteck(double breite, double höhe)
+        public Rechteck(double breite, double höhe) : this (breite)
         {
-            Breite = breite;
             Höhe = höhe;
         }
 

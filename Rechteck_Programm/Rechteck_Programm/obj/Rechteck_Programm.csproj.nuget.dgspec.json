@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "\\\\BK175055\\sador.z2\\Desktop\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj": {}
+    "\\\\BK175055\\sador.z2\\Desktop\\Git\\Rechteck\\Lernsituation-Rechteck-\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj": {}
   },
   "projects": {
-    "\\\\BK175055\\sador.z2\\Desktop\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj": {
+    "\\\\BK175055\\sador.z2\\Desktop\\Git\\Rechteck\\Lernsituation-Rechteck-\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\BK175055\\sador.z2\\Desktop\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj",
+        "projectUniqueName": "\\\\BK175055\\sador.z2\\Desktop\\Git\\Rechteck\\Lernsituation-Rechteck-\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj",
         "projectName": "Rechteck_Programm",
-        "projectPath": "\\\\BK175055\\sador.z2\\Desktop\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj",
-        "packagesPath": "C:\\Users\\sador.z2.SCHULE\\.nuget\\packages\\",
-        "outputPath": "\\\\BK175055\\sador.z2\\Desktop\\Rechteck_Programm\\Rechteck_Programm\\obj\\",
+        "projectPath": "\\\\BK175055\\sador.z2\\Desktop\\Git\\Rechteck\\Lernsituation-Rechteck-\\Rechteck_Programm\\Rechteck_Programm\\Rechteck_Programm.csproj",
+        "packagesPath": "C:\\Users\\sador.z2\\.nuget\\packages\\",
+        "outputPath": "\\\\BK175055\\sador.z2\\Desktop\\Git\\Rechteck\\Lernsituation-Rechteck-\\Rechteck_Programm\\Rechteck_Programm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sador.z2.SCHULE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sador.z2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
